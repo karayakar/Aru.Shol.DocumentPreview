@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="752d3a9c-bca1-4d63-a8e4-9b383a68403c" 
+        solutionId="752d3a9c-bca1-4d63-a8e4-9b383a68403c" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="Aru.Shol.DocumentPreview"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="393b8779-0961-4b11-8129-fcef13ed1ec7" />
+  </features>
+</package>
