@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="Document Preview"
+                OnQuickLaunch="TRUE"
+                TemplateType="101"
+                Url="Lists/docpreview"
+                Description="Library for testing document preview in edit form.">
+  </ListInstance>
+</Elements>

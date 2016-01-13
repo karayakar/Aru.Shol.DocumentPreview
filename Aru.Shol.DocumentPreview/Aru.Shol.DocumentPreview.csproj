@@ -43,10 +43,25 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Lists\DocumentPreview\DocumentPreview Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c76f1175-ea93-4923-8b99-dbe89398465a}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\DocumentPreview\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{7a32c020-7348-4f0b-a48e-3f45dde5409a}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{07f332c5-f37a-4aeb-9a80-932e064761b7}</SharePointProjectItemId>
     </None>
+    <Content Include="Lists\DocumentPreview\DocumentPreview Instance\Elements.xml" />
+    <Content Include="Lists\DocumentPreview\EditDlg.htm" />
+    <Content Include="Lists\DocumentPreview\Elements.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Lists\DocumentPreview\FileDlg.htm" />
+    <Content Include="Lists\DocumentPreview\Repair.aspx" />
+    <Content Include="Lists\DocumentPreview\Schema.xml" />
+    <Content Include="Lists\DocumentPreview\Upload.aspx" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
@@ -55,6 +70,7 @@
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{4e120816-88d7-4c38-8d11-7545dd46be84}</SharePointProjectItemId>
     </None>
+    <Content Include="Scripts\Aru.Shol.DocumentPreview.js" />
     <Content Include="Scripts\Elements.xml" />
     <Content Include="Scripts\App.js" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
@@ -85,11 +101,11 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="Features\Feature1\Feature1.feature">
+    <None Include="Features\DocumentPreviewComponents\DocumentPreviewComponents.feature">
       <FeatureId>{393b8779-0961-4b11-8129-fcef13ed1ec7}</FeatureId>
     </None>
-    <None Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <None Include="Features\DocumentPreviewComponents\DocumentPreviewComponents.Template.xml">
+      <DependentUpon>DocumentPreviewComponents.feature</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
